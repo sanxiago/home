@@ -1,9 +1,7 @@
 # home
 Configuration Files for my roaming home
 
-# Sourced from 
-https://www.electricmonk.nl/log/2015/06/22/keep-your-home-dir-in-git-with-a-detached-working-directory/
-
+# Thanks to https://www.electricmonk.nl/log/2015/06/22/keep-your-home-dir-in-git-with-a-detached-working-directory/
 
 Setting it up
 Create a directory to hold your git database (the .git dir):
@@ -38,7 +36,6 @@ git add .gitmodules vim/pack/shapeshed/start/vim-airline
 git commit
 ```
 
-
 Easily deploy dotfiles into a new machine:
 
 ```
@@ -46,4 +43,17 @@ $ ssh someothermachine
 $ git clone --recursive https://github.com/sanxiago/home.git ~/.dotfiles
 $ alias dgit='git --git-dir ~/.dotfiles/.git --work-tree=$HOME'
 $ dgit reset --hard
+```
+
+Push changes from anywhere
+# thanks to https://www.keybits.net/post/automatically-use-correct-ssh-key-for-remote-git-repo/
+
+```
+# create Host entry for key in ~/.ssh/config
+Host github.com-sanxiago
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/sanxiago-github
+git remote set-url origin git@github.com-sanxiago:sanxiago/home.git
+
 ```
