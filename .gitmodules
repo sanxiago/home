@@ -13,3 +13,6 @@
 [submodule ".vim/pack/vim-airline/start/vim-airline"]
 	path = .vim/pack/vim-airline/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
+[submodule ".vim/pack/jedi-vim/start/jedi-vim"]
+	path = .vim/pack/jedi-vim/start/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
