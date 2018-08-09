@@ -52,10 +52,15 @@ Host github.com-sanxiago
 git remote set-url origin git@github.com-sanxiago:sanxiago/home.git
 ```
 
-# Thanks to these sources:
-Keep your home dir in git with a detached working directory
+## Thanks to these sources:
+### Keep your home dir in git with a detached working directory
 https://www.electricmonk.nl/log/2015/06/22/keep-your-home-dir-in-git-with-a-detached-working-directory/
-Configure ssh keys for remote urls using ssh config
-https://www.keybits.net/post/automatically-use-correct-ssh-key-for-remote-git-repo/
-Installing packages in Vim 8.0 and adding as submodule
+
+### Installing packages in Vim 8.0 and adding as submodule
 https://shapeshed.com/vim-packages/
+
+### Configure ssh keys for remote urls using ssh config
+https://www.keybits.net/post/automatically-use-correct-ssh-key-for-remote-git-repo/
+
+### README.md markup
+https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
