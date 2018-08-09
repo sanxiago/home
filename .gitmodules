@@ -16,3 +16,6 @@
 [submodule ".vim/pack/jedi-vim/start/jedi-vim"]
 	path = .vim/pack/jedi-vim/start/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
+[submodule ".vim/pack/vim-flake8/start/vim-flake8"]
+	path = .vim/pack/vim-flake8/start/vim-flake8
+	url = https://github.com/nvie/vim-flake8.git

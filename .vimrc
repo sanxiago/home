@@ -11,4 +11,5 @@ if has('syntax') && has('eval')
   packadd matchit
 endif
 
+autocmd FileType python map <buffer> <C-\> :call Flake8()<CR>
 
