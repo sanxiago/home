@@ -29,12 +29,21 @@ HEAD is now at 642d86f gitignore
 ```
 Now the repository is checked out in our home directory, and it's ready to have stuff added to it. The dgit reset --hard command might seem spooky (and I do suggest you make a backup before running it), but since we're ignoring everything, it'll work just fine.
 
+Add dependencies using submodules to pull from other github repos, i.e: vim plugins
+#thanks to https://shapeshed.com/vim-packages/
+```
+git submodule init
+git submodule add https://github.com/vim-airline/vim-airline.git ~/.vim/pack/shapeshed/start/vim-airline
+git add .gitmodules vim/pack/shapeshed/start/vim-airline
+git commit
+```
+
 
 Easily deploy dotfiles into a new machine:
 
 ```
 $ ssh someothermachine
-$ git clone https://github.com/sanxiago/home.git ./.dotfiles
+$ git clone --recursive https://github.com/sanxiago/home.git ~/.dotfiles
 $ alias dgit='git --git-dir ~/.dotfiles/.git --work-tree=$HOME'
 $ dgit reset --hard
 ```
