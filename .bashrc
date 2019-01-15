@@ -156,3 +156,4 @@ if [ "$PS1" ]; then
   # to your custom modification shell script in /etc/profile.d/ directory
 fi 
 
+export HISTTIMEFORMAT="%d/%m/%y %T "
