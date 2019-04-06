@@ -1,9 +1,9 @@
 [Notes]
-PosX=194
-PosY=313
+PosX=650
+PosY=260
 Width=300
 Height=380
-TabsOrder=Notes;Notes 2;
+TabsOrder=Notes;
 LastTab=0
 Above=false
 Sticky=true

@@ -14,9 +14,9 @@
         <value type="int" value="4"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
-        <value type="int" value="7"/>
         <value type="int" value="8"/>
         <value type="int" value="9"/>
+        <value type="int" value="15"/>
         <value type="int" value="10"/>
         <value type="int" value="18"/>
         <value type="int" value="17"/>
@@ -57,6 +57,7 @@
         <value type="string" value="notes"/>
         <value type="string" value="blueman-applet"/>
         <value type="string" value="clipman"/>
+        <value type="string" value="update-notifier"/>
       </property>
       <property name="names-hidden" type="array">
       </property>
@@ -68,22 +69,6 @@
       </property>
       <property name="known-indicators" type="array">
         <value type="string" value="com.canonical.indicator.messages"/>
-      </property>
-    </property>
-    <property name="plugin-7" type="string" value="statusnotifier">
-      <property name="icon-size" type="uint" value="22"/>
-      <property name="menu-is-primary" type="bool" value="true"/>
-      <property name="mode-whitelist" type="bool" value="false"/>
-      <property name="single-row" type="bool" value="false"/>
-      <property name="square-icons" type="bool" value="false"/>
-      <property name="symbolic-icons" type="bool" value="true"/>
-      <property name="known-items" type="array">
-        <value type="string" value="blueman"/>
-        <value type="string" value="nm-applet"/>
-      </property>
-      <property name="hidden-items" type="array">
-        <value type="string" value="nm-applet"/>
-        <value type="string" value="blueman"/>
       </property>
     </property>
     <property name="plugin-8" type="string" value="power-manager-plugin"/>
@@ -126,6 +111,12 @@
       <property name="settings" type="empty">
         <property name="max-texts-in-history" type="uint" value="20"/>
         <property name="add-primary-clipboard" type="bool" value="true"/>
+      </property>
+    </property>
+    <property name="plugin-15" type="string" value="statusnotifier">
+      <property name="known-items" type="array">
+        <value type="string" value="nm-applet"/>
+        <value type="string" value="blueman"/>
       </property>
     </property>
   </property>
