@@ -117,9 +117,5 @@ fi
 alias dgit='git --git-dir ~/.dotfiles/.git --work-tree=$HOME'
 PATH=/home/sanxiago/.local/bin:${PATH}
 
-# Turn on parallel history
-shopt -s histappend
-# Turn on checkwinsize
-shopt -s checkwinsize
 
 export HISTTIMEFORMAT="%d/%m/%y %T "
