@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Toggle Touchpad
+Comment=
+Exec=/home/sanxiago/bin/toggle_touchpad.sh
+Icon=input-touchpad
+Path=
+Terminal=false
+StartupNotify=false
+X-XFCE-Source=file:///home/sanxiago/Desktop/Toggle%20Touchpad.desktop
